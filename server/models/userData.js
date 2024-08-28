@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema({
     lastName: { type: String, required: true },
     email: { type: String, required: true },
     password: { type: String, required: true },
+    role: { type: String, enum: ['patient', 'doctor', 'staff', 'admin'], required: true }
 });
 
 userSchema.methods.generateAuthToken = function () {
@@ -19,17 +20,15 @@ userSchema.methods.generateAuthToken = function () {
 
 const User = mongoose.model("profileManagement", userSchema);
 
-
-
 const validate = (data) => {
 	const schema = Joi.object({
 	  firstName: Joi.string().required().label("First Name"),
 	  lastName: Joi.string().required().label("Last Name"),
 	  email: Joi.string().email().required().label("Email"),
 	  password: passwordComplexity().required().label("Password"),
+	  role: Joi.string().valid("patient", "doctor", "staff", "admin").required().label("Role"),
 	});
 	return schema.validate(data);
   };
 
-module.exports = { User, validate };
-
+  module.exports = { User, validate };
