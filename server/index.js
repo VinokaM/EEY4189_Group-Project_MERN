@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const connection = require("./DB_Connection");
-const userRoutes = require("./routes/sampleRoutes")
+const userRoutes = require("./routes/signUpTask")
 
 app.use(express.json());
 app.use(cors());
