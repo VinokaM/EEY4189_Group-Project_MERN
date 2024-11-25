@@ -86,17 +86,7 @@ const Signup = () => {
 							required
 							className={styles.input}
 						/>
-						<select
-  							name="role"
-  							onChange={handleChange}
-  							value={data.role}
-  							className={styles.input}>
-
-  								<option value="patient">Patient</option>
-  								<option value="doctor">Doctor</option>
-  								<option value="staff">Staff</option>
-								<option value="admin">Admin</option>
-						</select>
+						
 						{error && <div className={styles.error_msg}>{error}</div>}
 						<button type="submit" className={styles.green_btn}>
 							Sing Up
