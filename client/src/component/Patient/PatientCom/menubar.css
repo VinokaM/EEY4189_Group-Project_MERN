@@ -1,0 +1,63 @@
+/* Menubar container */
+.pmenubar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5px;
+  }
+  
+  /* The container around each title */
+  .ptitle {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  /* Active Link */
+  .pactive {
+    background-color: #14b8a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0.5rem;
+    width: fit-content;
+    height: 2.5rem;
+    font-size: 0.875rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    
+  }
+  
+  /* Normal Link */
+  .pnormal {
+    color: #14b8a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: fit-content;
+    height: 2.5rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    
+  }
+  
+  /* Hover states */
+  .pnormal:hover {
+    background-color: #14b8a6;
+    color: white;
+  }
+  
+  .pactive:hover {
+    background-color: white;
+    color: #14b8a6;
+  }
+  
