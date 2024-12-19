@@ -1,0 +1,69 @@
+/* Container and Title */
+.container {
+    padding: 20px;
+  }
+  
+  .titlehead {
+    color: #14b8a6;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Search and Filter */
+  .search-filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .role-select {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  /* Table Styling */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color:#14b8a6;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Button Styling */
+  .pdf-button {
+    padding: 8px 12px;
+    background-color: #14b8a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pdf-button:hover {
+    background-color: #46a2a2;
+  }
+  

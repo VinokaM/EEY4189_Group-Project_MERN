@@ -10,7 +10,7 @@ import StaffMain from "./component/Staff/StaffMain";
 let user;
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   try {
     user = JSON.parse(localStorage.getItem("role"));
@@ -36,9 +36,9 @@ function App() {
             
       </Routes>
       
-    </Router>
   );
 }
+
 
 export default App;
 
