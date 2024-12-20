@@ -1,0 +1,61 @@
+.doctor_container {
+	width: 650px;
+	min-height: 100vh;
+	background-color: #ffffff;
+	display: flex;
+    flex-direction: column;
+	
+}
+
+.doctor_form_container {
+	width: 600px;
+	height: 500px;
+	display: flex;
+	margin-top: 30px;
+    margin-left: 30px;
+}
+
+.doctor_head{
+    font-size: 25px;
+}
+
+.doctor_input {
+	outline: none;
+	border: none;
+	width: 500px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	font-size: 14px;
+}
+
+.doctor_error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.doctor_white_btn,
+.doctor_green_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.doctor_green_btn {
+	background-color: #3bb19b;
+	color: white;
+	margin: 10px;
+}
