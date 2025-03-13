@@ -1,43 +1,31 @@
-
+import { FaUserFriends, FaSearch, FaUserPlus, FaUserMinus, FaUserEdit } from "react-icons/fa";
 
 export const SidebarData=[
     {
+        icon:<FaUserFriends/>,
         title: "Our Users",
         path: "/*",
       },
       {
+        icon:<FaSearch/>,
         title: "Search Users",
         path: "/searchuser",
       },
       {
-        title: "Sample",
-        path: "/sample3",
-      },
-      {
+        icon:<FaUserPlus/>,
         title: "Add Users",
         path: "/adduser",
       },
       {
-        title: "Sample",
-        path: "/sample5",
-      },
-     
-      {
-        title: "Sample",
-        path: "/sample6",
-      },
-      {
-        title: "Sample",
-        path: "/sample7",
-      },
-      {
+        icon:<FaUserMinus/>,
         title: "Delete Users",
         path: "/deleteuser",
         
       },
       {
+        icon:<FaUserEdit/>,
         title: "Edit Profile",
-        path: "/updateadmin",
+        path: "/updateAdmin",
        
       },
 ]

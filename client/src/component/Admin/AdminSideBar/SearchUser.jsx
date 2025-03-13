@@ -64,7 +64,6 @@ const UsersList = () => {
             <th>Last Name</th>
             <th>Email</th>
             <th>Role</th>
-            <th>Generate ID Card</th>
           </tr>
         </thead>
         <tbody>
@@ -75,13 +74,6 @@ const UsersList = () => {
               <td>{user.lastName}</td>
               <td>{user.email}</td>
               <td>{user.role}</td>
-              <td>
-                {user.role === "staff" && (
-                  <button className="pdf-button" onClick={() => downloadPDF(user)}>
-                    Download PDF
-                  </button>
-                )}
-              </td>
             </tr>
           ))}
         </tbody>

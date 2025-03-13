@@ -4,6 +4,7 @@ import AddUser from "../AdminSideBar/AddUser"
 import Calculate from "../AdminSideBar/Calculate"
 import SearchUser from "../AdminSideBar/SearchUser"
 import DeleteUser from "../AdminSideBar/DeleteUser"
+import UpdateProfile from "../../commenCompo/UpdateProfile";
 
 
 const NavPage = () => {
@@ -17,6 +18,7 @@ const NavPage = () => {
           <Route path="/adduser" element={<AddUser />} /> 
           <Route path="/searchuser" element={<SearchUser />} />  
           <Route path="/deleteuser" element={<DeleteUser />} /> 
+          <Route path="/updateAdmin" element={<UpdateProfile />} />
           
           </Routes>
         </section>

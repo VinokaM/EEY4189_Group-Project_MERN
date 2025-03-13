@@ -10,21 +10,22 @@ const Sidebar = () => {
   return (
     <React.Fragment>
       <section>
-        <div class="sidebar">
+        <div className="sidebar">
           <div className="sidebar-header">
             <h2>{name}</h2>
             <h3>{email}</h3>
           </div>
           {SidebarData.map((item, index) => {
             return (
-              <div key={index} class="title">
+              <div key={index} className="title">
                 <NavLink
                   to={item.path}
                   className={({ isActive }) =>
                     isActive ? 'active-link' : 'normal-link'
                   }
                 >
-                  <span class="title">{item.title}</span>
+                  <span className="icon">{item.icon}</span>
+                  <span className="title">{item.title}</span>
                 </NavLink>
               </div>
             );

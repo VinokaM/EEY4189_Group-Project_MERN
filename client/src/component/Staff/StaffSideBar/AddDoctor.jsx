@@ -60,11 +60,11 @@ const Signup = () => {
 	};
 
 	return (
-		<div className="doctor_container">
+		 <div className="doctor_container">
 			<div className="doctor_form_container">
 				
 				<div className="doctor_right">
-					<form className="doctor_container" onSubmit={handleSubmit}>
+					<form className="" onSubmit={handleSubmit}>
 						<h1 className="doctor_head">Create User's Account</h1>
 						<input
 							type="text"
@@ -120,7 +120,7 @@ const Signup = () => {
 					<ToastContainer />
 				</div>
 			</div>
-		</div>
+		 </div>
 	);
 };
 

@@ -4,6 +4,7 @@ import StaffAppointments from "../StaffSideBar/StaffAppointments";
 import Calculate from "../../Admin/AdminSideBar/Calculate";
 import SearchUser from "../../Admin/AdminSideBar/SearchUser";
 import AddDoctor from "../StaffSideBar/AddDoctor";
+import UpdateProfile from "../../commenCompo/UpdateProfile";
 
 
 
@@ -18,6 +19,7 @@ const NavPage = () => {
           <Route path="/allapp" element={<StaffAppointments />} />
           <Route path="/searchall" element={<SearchUser />} />
           <Route path="/adddoc" element={<AddDoctor />} />
+          <Route path="/updateStaff" element={<UpdateProfile />} />
           
           
           </Routes>

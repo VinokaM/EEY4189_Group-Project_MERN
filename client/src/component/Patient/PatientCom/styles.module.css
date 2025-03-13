@@ -18,21 +18,36 @@
 	outline: none;
 	padding: 8px 0;
 	background-color: white;
-	border-radius: 20px;
+	border-radius: 5px;
 	width: 120px;
 	font-weight: bold;
 	font-size: 14px;
 	cursor: pointer;
 	margin-right: 20px;
+	color: #3bb19b;
 }
 
-.new_btn{
+.new_btn1{
 	text-decoration: none;
-	font-weight: bold;
-	background-color: #ffffff;
-	color: #000000;
+	font-weight: 500;
+	background-color: #3bb19b;
+	color: #ffffff;
 	padding: 5px 10px;
 	margin-right: 10px;
-	border-radius: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	border:2px solid #ffffff;
 	
 }
+.new_btn2{
+	text-decoration: none;
+	font-weight: 500;
+	background-color: #ffffff;
+	color: #3bb19b;
+	padding: 5px 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	
+}
+

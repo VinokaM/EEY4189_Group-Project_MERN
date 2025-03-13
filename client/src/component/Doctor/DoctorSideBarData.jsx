@@ -1,43 +1,30 @@
-
+import { FaUserFriends, FaUniversity, FaFacebookMessenger, FaAddressBook, FaUserEdit } from "react-icons/fa";
 
 export const SidebarData=[
     {
+      icon:<FaUserFriends/>,
         title: "Sample",
         path: "/*",
       },
       {
+        icon:<FaAddressBook/>,
         title: "Appointments",
         path: "/appointments",
       },
       {
+        icon:<FaUniversity/>,
         title: "Update Your Details",
         path: "/doctorprofile",
       },
       {
+        icon:<FaFacebookMessenger/>,
         title: "Chat",
         path: "/chat",
       },
       {
-        title: "Sample",
-        path: "/sample5",
-      },
-     
-      {
-        title: "Sample",
-        path: "/sample6",
-      },
-      {
-        title: "Sample",
-        path: "/sample7",
-      },
-      {
-        title: "Delete Users",
-        path: "/deleteuser",
-        
-      },
-      {
+        icon:<FaUserEdit/>,
         title: "Edit Profile",
-        path: "/updateadmin",
+        path: "/updateDoctor",
        
       },
 ]

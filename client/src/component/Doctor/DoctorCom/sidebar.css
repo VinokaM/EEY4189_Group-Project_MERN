@@ -1,4 +1,5 @@
 .sidebar{
+  height: 100vh;
     
 }
 
@@ -61,4 +62,9 @@
   
   .title{
     text-decoration: none;
+  }
+
+  .icon{
+    margin-right: 15px;
+    font-size: 16px;
   }

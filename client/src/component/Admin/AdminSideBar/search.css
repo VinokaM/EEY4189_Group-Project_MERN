@@ -24,6 +24,11 @@
     border: 1px solid #ccc;
     outline: none;
   }
+  .search-input:focus {
+    border: 1px solid #14b8a6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(20, 184, 166, 0.5);
+}
   
   .role-select {
     margin-left: 20px;
@@ -53,17 +58,4 @@
     font-weight: bold;
   }
   
-  /* Button Styling */
-  .pdf-button {
-    padding: 8px 12px;
-    background-color: #14b8a6;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .pdf-button:hover {
-    background-color: #46a2a2;
-  }
   

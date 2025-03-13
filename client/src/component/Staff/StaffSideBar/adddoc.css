@@ -1,9 +1,10 @@
 .doctor_container {
 	width: 650px;
-	min-height: 100vh;
 	background-color: #ffffff;
 	display: flex;
     flex-direction: column;
+	margin-top: 30px;
+	margin-left: 30px;
 	
 }
 
@@ -28,6 +29,11 @@
 	background-color: #edf5f3;
 	margin: 5px 0;
 	font-size: 14px;
+}
+.doctor_input:focus {
+    border: 1px solid #14b8a6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(20, 184, 166, 0.5);
 }
 
 .doctor_error_msg {

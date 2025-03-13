@@ -97,7 +97,7 @@ const DoctorAppointments = () => {
         <button className="filterbtn2" onClick={resetDateFilter}>Reset Filter</button>
       </div>
 
-      <ul>
+      <ul className="doctorApp">
         {filteredAppointments.map((appointment) => (
           <li key={appointment._id} style={{ borderColor: getStatusColor(appointment.status) }}>
             <strong>Appointment Number:</strong> {appointment.appointmentNumber} <br />

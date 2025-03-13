@@ -288,7 +288,7 @@ const HomePage = () => {
 
       <div className='map'>
         <h3 className='maptxt'>visit us</h3>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31681.388051252867!2d81.03841755091455!3d6.988833699936381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae462167fa6dad9%3A0x84d3d072c32aa246!2sBadulla!5e0!3m2!1sen!2slk!4v1734759041292!5m2!1sen!2slk" width="1000" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='mapui'></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31681.388051252867!2d81.03841755091455!3d6.988833699936381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae462167fa6dad9%3A0x84d3d072c32aa246!2sBadulla!5e0!3m2!1sen!2slk!4v1734759041292!5m2!1sen!2slk" width="1000" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className='mapui'></iframe>
       </div>
 
 

@@ -33,10 +33,10 @@ const Main = () => {
           </button>
         ) : (
           <div>
-            <Link to="/login" className={styles.new_btn}>
+            <Link to="/login" className={styles.new_btn1}>
               login
             </Link>
-            <Link to="/signup" className={styles.new_btn}>
+            <Link to="/signup" className={styles.new_btn2}>
               Sign Up
             </Link>
           </div>
